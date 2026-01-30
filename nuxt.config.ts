@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui',
-    '@nuxtjs/tailwindcss' 
+    '@nuxt/ui'
   ],
 
   devtools: {
@@ -24,6 +23,12 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {}
     }
   }
 })
