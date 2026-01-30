@@ -1,0 +1,22 @@
+﻿Legend: production dependency, optional only, dev only
+
+main-app C:\Users\Josue\Documents\Ferremat\Ferremat-Frontend\main-app (PRIVATE)
+
+dependencies:
+nuxt 4.3.0
+ÔööÔöÇÔö¼ @nuxt/nitro-server 4.3.0
+  ÔööÔöÇÔö¼ nitropack 2.13.1
+    Ôö£ÔöÇÔö¼ @vercel/nft 1.3.0
+    Ôöé ÔööÔöÇÔöÇ glob 13.0.0
+    ÔööÔöÇÔö¼ archiver 7.0.1
+      Ôö£ÔöÇÔö¼ archiver-utils 5.0.2
+      Ôöé ÔööÔöÇÔöÇ glob 10.5.0
+      ÔööÔöÇÔö¼ zip-stream 6.0.1
+        ÔööÔöÇÔö¼ archiver-utils 5.0.2
+          ÔööÔöÇÔöÇ glob 10.5.0
+
+devDependencies:
+@nuxtjs/tailwindcss 6.14.0
+ÔööÔöÇÔö¼ tailwind-config-viewer 2.0.4
+  ÔööÔöÇÔö¼ replace-in-file 6.3.5
+    ÔööÔöÇÔöÇ glob 7.2.3
